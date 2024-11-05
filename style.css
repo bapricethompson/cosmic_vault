@@ -104,3 +104,61 @@ img {
     width:60%;
     text-align:center;
 }
+
+#commentInput{
+    margin:auto;
+    width: 55%;
+    text-align:center;
+}
+
+#commentDisplay{
+    margin:auto;
+    width:40%;
+    max-height: 300px; /* Set the height for the scrollable area */
+    overflow-y: auto; /* Scrollbar appears only when needed */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    border: 1px solid #ccc; /* Optional: border for better visibility */
+    padding: 10px; /* Optional: padding for spacing */
+}
+
+#commentList{
+    width:100%;
+
+}
+
+#commentText{
+    background-color: white;
+    width: 50%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+#commentName{
+    width: 50%;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    height:30px;
+}
+
+button{
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight:bold;
+    border-radius:5px;
+    display: inline-block;
+    font-size: 12px;
+    margin:10px;
+}
+
+#commentSection{
+    font-family: "Lora", serif;
+    display:flex;
+    justify-content: space-between;
+}
+
